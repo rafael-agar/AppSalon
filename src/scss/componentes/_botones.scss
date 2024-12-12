@@ -1,0 +1,13 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.boton{
+    @include m.boton(v.$azul, v.$blanco);
+    &:hover {
+        background-color: v.$negro;
+    }
+}
+
+.boton-eliminar {
+    background-color: rgb(195, 0, 0);
+}

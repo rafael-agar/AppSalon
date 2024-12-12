@@ -1,0 +1,9 @@
+- Pasar a PDO
+- Se guardan los registros con 1 espacio en el 1er caracter
+- CitaServicios corregir al eliminar en DB - eliminar Registro de otra tabla
+- Configurar horario general en admin
+- Email de creacion de cita a Admin y cliente
+- Email confirmacion o WhatsApp
+* Escojer al especialista
+* Horario disponible por cada especialista
+* Configurar especialista (datos y horario) en admin

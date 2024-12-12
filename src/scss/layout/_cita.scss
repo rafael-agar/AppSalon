@@ -1,0 +1,43 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.seccion {
+
+    // padding: 5rem 0;
+    display: none;
+
+    .text-center {
+        text-align: center;
+    }
+}
+
+.mostrar {
+    display: block;
+}
+.ocultar{
+    display: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+
+    a {
+        display: inline-block;
+        background-color: v.$negro;
+        color: v.$blanco; 
+        padding: 1rem 1.5rem;
+        font-size: 1.3rem;
+        transition: all 0.1s ease;
+
+        &:hover {
+            background-color: v.$blanco;
+            color: v.$negro;
+            border: 0.1rem solid;
+            border-color: v.$negro;
+        }
+    }
+}

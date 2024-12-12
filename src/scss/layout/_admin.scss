@@ -1,0 +1,49 @@
+@use 'base/variables' as v;
+
+.citas {
+    list-style: none;
+    padding: 0;
+
+    li {
+        padding: 1rem;
+        margin: 2rem 0;
+        p {
+            font-weight: v.$bold;
+        }
+
+        span,
+        .servicio {
+            font-weight: v.$regular;
+            color: v.$negro;
+        }
+
+    }
+}
+
+.servicios {
+    @extend .citas;
+
+    p {
+        color: v.$negro ;
+    }
+
+    .acciones {
+        margin: 0;
+    }
+    .boton,
+    .boton-eliminar {
+        margin: 0;
+    }
+}
+
+.citas{
+    li {
+        background-color: v.$grisClaro;
+        border-radius: 1rem;
+        color: v.$negro;
+
+        p {
+            color: v.$negro;
+        }
+    }
+}
